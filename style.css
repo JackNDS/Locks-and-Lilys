@@ -51,15 +51,17 @@
 
 .text-container p {
   font-family: 'gibson', sans-serif;
-  font-size: 24px;
-  font-weight: 100;
-  letter-spacing: 0.07em;
+  font-size: 22px;
+  font-weight: 200;
+  letter-spacing: 0.05em;
   margin-bottom: 20px;
   transition: 0.5s all;
+  width: 390px;
+  line-height: 40px;
 }
 
 .text-container p:hover {
-  letter-spacing: 0.2em;
+  transform: scale(1.06);
 }
 
 .logo-container {
